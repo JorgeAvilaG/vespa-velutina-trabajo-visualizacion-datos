@@ -1,4 +1,5 @@
-# Introduction
+
+## Introduction
 
 It's possible to embed images.
 
