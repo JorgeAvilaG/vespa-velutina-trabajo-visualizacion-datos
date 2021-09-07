@@ -1,6 +1,3 @@
----
-layout: default
----
 
 porque el titulo es
 
