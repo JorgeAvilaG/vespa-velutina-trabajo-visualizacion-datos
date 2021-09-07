@@ -1,8 +1,5 @@
----
----
-
-@import "{{ site.theme }}";
 
 theme: jekyll-theme-tactile
 title: Estudio sobre la influencia de la avista asiática en el Pais Vasco
 description: Trabajo de la asignatura Visualización de Datos
+classes: wide
