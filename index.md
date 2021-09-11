@@ -10,7 +10,7 @@
 
 
 # ¿Está relacionada la presencia de la avispa asiática con la cercanía de colmenas de abejas?
-<object width="800" height="500" data="imagenes/abejas-vs-avispas.html"></object>
+<object  data="imagenes/abejas-vs-avispas.html"></object>
 
 A pesar de que la avispa asiática sea depredadora de la abeja no parece que hay una relación fuerte entre la presencia de colmenas y los nidos de avispas.
 
