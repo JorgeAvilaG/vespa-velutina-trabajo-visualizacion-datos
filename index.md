@@ -1,15 +1,21 @@
+## Trabajo de la asignatura Visualización de los Datos
+## Jorge Pablo Ávila Gómez
+### Máster en Ingeniería y Ciencia de Datos (UNED)
 
-porque el titulo es
 
-## Introduction
-ya?
-###It's possible to embed images.
 
-![](https://cdn.shopify.com/s/files/1/0051/4802/products/mona-1_large.jpg?v=1511308586)
+## La avispa asiática presenta comportamiento temporal
 
-# Survey of tools and needs
-prueba
-<object width="600" height="900" data="imagenes/prueba.html"></object>
-# Looking for automation
-Un ejemplo de grafica chula
-<object width="600" height="900" data="/imagenes/yup.html"></object>
+<object width="600" height="900" data="imagenes/meses-vs-avispas.html"></object>
+
+
+# ¿Está relacionada la presencia de la avispa asiática con la cercanía de colmenas de abejas?
+<object width="600" height="900" data="imagenes/abejas-vs-avispas.html"></object>
+
+A pesar de que la avispa asiática sea depredadora de la abeja no parece que hay una relación fuerte entre la presencia de colmenas y los nidos de avispas.
+
+# Influencia de diferentes tipos de cultivos
+<object width="600" height="900" data="imagenes/cultivos-vs-avispas.html"></object>
+
+# Recogida de nidos de avispa asiática - Zona urbana vs Zona campo
+<object width="600" height="900" data="imagenes/tipodelugar-vs-avispas.html"></object>

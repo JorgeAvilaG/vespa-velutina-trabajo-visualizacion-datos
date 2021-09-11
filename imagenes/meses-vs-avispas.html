@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-f4932313f0aee8037e79c0b50c82677e"}, "mark": {"type": "bar", "size": 20}, "encoding": {"tooltip": [{"type": "nominal", "field": "Mes"}], "x": {"type": "ordinal", "field": "Mes", "sort": null}, "y": {"type": "quantitative", "field": "Nidos recogidos"}}, "height": 400, "width": 500, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-f4932313f0aee8037e79c0b50c82677e": [{"year": 186, "Mes": "Enero", "Nidos recogidos": 186}, {"year": 220, "Mes": "Febrero", "Nidos recogidos": 220}, {"year": 231, "Mes": "Marzo", "Nidos recogidos": 231}, {"year": 245, "Mes": "Abril", "Nidos recogidos": 245}, {"year": 364, "Mes": "Mayo", "Nidos recogidos": 364}, {"year": 480, "Mes": "Junio", "Nidos recogidos": 480}, {"year": 833, "Mes": "Julio", "Nidos recogidos": 833}, {"year": 925, "Mes": "Agosto", "Nidos recogidos": 925}, {"year": 888, "Mes": "Septiembre", "Nidos recogidos": 888}, {"year": 868, "Mes": "Octubre", "Nidos recogidos": 868}, {"year": 641, "Mes": "Noviembre", "Nidos recogidos": 641}, {"year": 267, "Mes": "Diciembre", "Nidos recogidos": 267}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
