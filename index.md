@@ -11,4 +11,4 @@ ya?
 
 # Looking for automation
 Un ejemplo de grafica chula
-<object width="600" height="900" data="yup.html"></object>
+<object width="600" height="900" data="../imagenes/yup.html"></object>
