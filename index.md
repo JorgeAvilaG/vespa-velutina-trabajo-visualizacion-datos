@@ -2,7 +2,7 @@
 ### Jorge Pablo Ávila Gómez
 ### Máster en Ingeniería y Ciencia de Datos (UNED)
 
-# ¿ Cómo se distribuye la avispa asiática en el País Vasco?
+# ¿Cómo se distribuye la avispa asiática en el País Vasco?
 En esta visualización vamos a intentar constestar a esta pregunta estudiando la distribución de los nidos de avispa asiática que se han retirado en los diferentes municipios del País Vasco en los últimos años.
 
 Mapa con la distribución espacial de los nidos de avispa asiática retirados:
@@ -12,7 +12,7 @@ Mapa de la distribución de los nidos de avispa asiática separados por pueblos:
 <object width="100%" height="620" data="imagenes/mapa-animacion-pueblos.html"></object>
 
 # El ciclo vital de la avispa asiática en la recogida de nidos
-Debido al ciclo vital de la avispa asiática existe una distribución desigual de los nidos a lo largo del año. En la siguiente gráfica se observa que se retiran un mayor número de nidos en verano y otoño, que es cuando las avispas construyen un mayor número de nidos. Sin embargo, en invierno las avispas entran en invernación.
+Debido al ciclo vital de la avispa asiática existe una distribución desigual de los nidos a lo largo del año. En la siguiente gráfica se observa que se retiran un mayor número de nidos en verano y otoño, que es cuando las avispas construyen un mayor número de nidos. Sin embargo, en invierno las avispas entran en hibernación.
 <object width="100%" height="550" data="imagenes/meses-vs-avispas.html"></object>
 
 En la siguiente animación podemos ver donde se han recogido los nidos de avispa asiática para cada día en los últimos 2 años:
